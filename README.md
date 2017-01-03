@@ -18,4 +18,4 @@ $ python metro.py lattice_col lattice_row
 ```
 
 The recommended values of lattice_col lattice_row is (100,100), which  perform best.
-In every temperature, the program will run 2000*lattice_col*lattice_row times of metropolis algorithm, so it really take times to run the program. If you want to save time, you can also change the iteration in every temperature to 200000, it can also perform similar result.
+In every temperature, the program will run 2 million times of metropolis algorithm, so it really take times to run the program. If you want to save time, you can also change the iteration in every temperature to 200000, it can also perform similar results.
